@@ -1,0 +1,54 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+}
+.container-navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #333;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px; 
+    justify-content: center;
+    align-items: center;
+
+}
+.li-navbar {
+list-style-type: none;
+padding: 20px;
+color: white;
+margin: 5px;
+font-size: 30px;
+}
+
+.container-content {
+height: 80vh;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img-content {
+    width: 30%;
+    height: 30%;
+}
+
+.container-footer {
+    height: 10vh;
+background-color: crimson;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.h1-footer {
+font-size: 40px;
+}
